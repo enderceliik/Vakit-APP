@@ -11,10 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      themeMode: ThemeMode.system,
       debugShowCheckedModeBanner: false,
-      title: 'Alisganlik APP',
-    
+      title: 'Vakit APP',
       home: MainPage(),
     );
   }

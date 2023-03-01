@@ -9,7 +9,6 @@ class HttpService {
       {
         return response.body;
       }
-      
     }
     catch (e)
     {
